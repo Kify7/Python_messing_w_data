@@ -29,5 +29,23 @@ print(len(cosa))
 #FILE PROCESING
 #A text file has newlines at the end of each line
 
+#FILE HANDLE  is a sequence of lines
+#A file handle open for real can be treated as a sequence of stringswhere each line in the file is a 
+#string in the sequence
+#we can use the for statement to iterate through s sequence
+# Remember: a sequence is an ordered set:
 
+xfile = open('mbox-short.txt')
+#for cheese in xfile:
+    #print(cheese)
+count = 0
+for line in xfile :
+    count = count + 1
+print('Line count :', count)
+
+#READINGG THE *WHOLE* FILE
+yfile= ('mbox-short.txt')
+inp = yfile.read()
+print(len(inp))
+print(inp[:20])
 
