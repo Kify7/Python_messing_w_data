@@ -6,6 +6,7 @@ for line in xfile :
     if not '@uct.ac.za' in line :
         continue
     print(line)
+    print(line.uppercase)
 
 fname = input('Enter file name: ')
 try :

@@ -43,9 +43,5 @@ for line in xfile :
     count = count + 1
 print('Line count :', count)
 
-#READINGG THE *WHOLE* FILE
-yfile= ('mbox-short.txt')
-inp = yfile.read()
-print(len(inp))
-print(inp[:20])
+
 

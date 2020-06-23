@@ -30,11 +30,3 @@ for line in fhand :
         continue
     print(line)
 
-#USING in TO SELECT LINES
-#We can look for a string, anywhere on a line , as our selection criteria:
-fhand = open('mbox-short.txt')
-for line in fhand :
-    line = line.rstrip()
-    if not '@utc.ac.za' in line :
-        continue
-    print(line)
